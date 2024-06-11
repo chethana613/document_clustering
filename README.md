@@ -67,13 +67,15 @@ K center focuses on minimizing the maximum distance between any point to the cen
 **Experimentation**
 
 
-**Silhouette Score vs K**
+**Silhouette Score vs K :**
 Experimentation is done with Silhouette Score vs K to find the optimal k value and corresponding Silhouette Scores and following are the results.
 
+<img width="843" alt="Screenshot 2024-06-10 at 4 40 10 PM" src="https://github.com/chethana613/document_clustering/assets/56347342/946b5509-f1ee-493a-ba08-3cd7d6b46bc9">
 
-**NMI Score vs K**
+**NMI Score vs K :**
 We have taken another metrics NMI Score which is experimented on different k values and following are the results.
 
+<img width="843" alt="Screenshot 2024-06-10 at 4 40 10 PM" src="https://github.com/chethana613/document_clustering/assets/56347342/946b5509-f1ee-493a-ba08-3cd7d6b46bc9">
 
 **Observations & Results**
 The 20 Newsgroups dataset is high-dimensional. The k-center algorithm, which minimizes the maximum distance to the nearest center, can perform well in high-dimensional spaces where the concept of "center" and "distance" can be quite different compared to lower-dimensional spaces.
