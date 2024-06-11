@@ -107,8 +107,8 @@ In this work, document vectors are calculated by training a Doc2Vec model on a s
 
 **Results and observations:**
 
-<img width="533" height="200" alt="Screenshot 2024-06-10 194754" src="https://github.com/chethana613/document_clustering/assets/89372870/9bb4e1e2-b6f0-4a69-a3ab-bd547998761f">
-<img width="419" height="150" alt="Screenshot 2024-06-10 195001" src="https://github.com/chethana613/document_clustering/assets/89372870/eedf89d2-99b7-49be-9449-e44b69d1c400">
+<img width="533" height="250" alt="Screenshot 2024-06-10 194754" src="https://github.com/chethana613/document_clustering/assets/89372870/9bb4e1e2-b6f0-4a69-a3ab-bd547998761f">
+<img width="419" height="180" alt="Screenshot 2024-06-10 195001" src="https://github.com/chethana613/document_clustering/assets/89372870/eedf89d2-99b7-49be-9449-e44b69d1c400">
 
 
 The experiment evaluated the clustering performance of a hierarchical clustering algorithm on a dataset for various numbers of clusters (K). The silhouette scores, which measure the cohesion and separation of the clusters, showed a decreasing trend as K increased. However, the silhouette scores for K=15 and K=16 were relatively stable and higher compared to other values, indicating well-defined clusters. The normalized mutual information (NMI) scores, which assess the clustering's alignment with ground truth labels, varied with different K values. The highest NMI score was observed for K=20, suggesting better agreement with the ground truth. Notably, for K=21 to K=25, the silhouette scores were negative, indicating poor clustering. Overall, while the optimal number of clusters was not definitive, the results suggested that K=20 could be a suitable choice, offering a balance between cluster quality and alignment with ground truth labels.
