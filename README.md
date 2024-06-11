@@ -86,5 +86,5 @@ For the 20 Newsgroups dataset, the clusters found by k-center are more compact a
 
 
 **Conclusion**
-The k-center algorithm yielding a higher Silhouette Score on the 20 Newsgroups dataset is likely due to the specific characteristics of the data and the strengths of the kkk-center approach in such contexts. While k-center might not universally outperform other algorithms across all datasets, it appears particularly well-suited for this high-dimensional, text-based dataset.
+The k-center algorithm yielding a higher Silhouette Score on the 20 Newsgroups dataset is likely due to the specific characteristics of the data and the strengths of the k-center approach in such contexts. While k-center might not universally outperform other algorithms across all datasets, it appears particularly well-suited for this high-dimensional, text-based dataset.
 
