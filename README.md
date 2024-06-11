@@ -63,11 +63,11 @@ K center focuses on minimizing the maximum distance between any point to the cen
 
 **Experimentation**
 
-<u>Silhouette Score vs K</u>
+**Silhouette Score vs K**
 Experimentation is done, Silhouette Score vs K to find the optimal k value and corresponding Silhouette Scores and following are the results.
 
 
-<u>NMI Score vs K</u>
+**NMI Score vs K**
 We have taken another metrics NMI Score which is experimented on different k values and following are the results.
 
 
