@@ -57,3 +57,28 @@ Silhouette score above 0.5 indicates a good clustering, a silhouette score below
 
 Normalized Mutual Information (NMI) is a measure used to evaluate the similarity between two clusterings of data. It quantifies how much information is shared between the two clusterings, taking into account both the clustering assignments themselves and their agreement with some ground truth labels
 normalization of the Mutual Information (MI) score to scale the results between 0 (no mutual information) and 1 (perfect correlation).
+
+**K-Center**
+K center focuses on minimizing the maximum distance between any point to the center of its cluster. This leads to tight and well defined clusters (high Silhouette Score). But this method might not align well with the actual data distribution which leads to poor NMI scores. 
+
+**Experimentation**
+
+__Silhouette Score vs K__
+Experimentation is done, Silhouette Score vs K to find the optimal k value and corresponding Silhouette Scores and following are the results.
+
+
+__NMI Score vs K__
+We have taken another metrics NMI Score which is experimented on different k values and following are the results.
+
+
+**Observations & Results**
+The 20 Newsgroups dataset is high-dimensional. The k-center algorithm, which minimizes the maximum distance to the nearest center, can perform well in high-dimensional spaces where the concept of "center" and "distance" can be quite different compared to lower-dimensional spaces.
+
+Text data, like the 20 Newsgroups dataset, is often sparse. The k-center algorithm might effectively capture the separation between sparse clusters, leading to better-defined clusters.
+For the 20 Newsgroups dataset, the clusters found by k-center are more compact and better separated
+
+
+
+**Conclusion**
+The k-center algorithm yielding a higher Silhouette Score on the 20 Newsgroups dataset is likely due to the specific characteristics of the data and the strengths of the kkk-center approach in such contexts. While k-center might not universally outperform other algorithms across all datasets, it appears particularly well-suited for this high-dimensional, text-based dataset.
+
