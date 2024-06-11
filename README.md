@@ -58,13 +58,17 @@ Silhouette score above 0.5 indicates a good clustering, a silhouette score below
 Normalized Mutual Information (NMI) is a measure used to evaluate the similarity between two clusterings of data. It quantifies how much information is shared between the two clusterings, taking into account both the clustering assignments themselves and their agreement with some ground truth labels
 normalization of the Mutual Information (MI) score to scale the results between 0 (no mutual information) and 1 (perfect correlation).
 
+
 **K-Center**
+
 K center focuses on minimizing the maximum distance between any point to the center of its cluster. This leads to tight and well defined clusters (high Silhouette Score). But this method might not align well with the actual data distribution which leads to poor NMI scores. 
+
 
 **Experimentation**
 
+
 **Silhouette Score vs K**
-Experimentation is done, Silhouette Score vs K to find the optimal k value and corresponding Silhouette Scores and following are the results.
+Experimentation is done with Silhouette Score vs K to find the optimal k value and corresponding Silhouette Scores and following are the results.
 
 
 **NMI Score vs K**
