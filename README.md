@@ -122,6 +122,10 @@ The experiment evaluated the clustering performance of a hierarchical clustering
 
 <img width="336" alt="image" src="https://github.com/chethana613/document_clustering/assets/56347342/d2d64176-53b5-45ac-8efb-edd4843a67f3">
 
-The k-center algorithm yielding a higher Silhouette Score on the 20 Newsgroups dataset is likely due to the specific characteristics of the data and the strengths of the k-center approach in such contexts. While k-center might not universally outperform other algorithms across all datasets, it appears particularly well-suited for this high-dimensional, text-based dataset.
+Through the experimentation by applying K-means, K-Center and Hierarchical Clustering, We identified that K-Center Algorithm Yeilded better results. The k-center algorithm yielding a higher Silhouette Score on the 20 Newsgroups dataset is likely due to the specific characteristics of the data and the strengths of the k-center approach in such contexts. While k-center might not universally outperform other algorithms across all datasets, it appears particularly well-suited for this high-dimensional, text-based dataset.
+
+**8. Future Work**
+
+In this work, we experimented on Word2Vec and  Doc2Vec tehnoques to represent the words in higher dimension space. Future scope on this work would include Experimentation with different embedding techniques like BERT, Finetuning using Pretrained Models and include some comprehensive pre-processing steps.
 
 
