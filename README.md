@@ -108,6 +108,8 @@ In this work, document vectors are calculated by training a Doc2Vec model on a s
 **Results and observations:**
 
 <img width="533" alt="Screenshot 2024-06-10 194754" src="https://github.com/chethana613/document_clustering/assets/89372870/9bb4e1e2-b6f0-4a69-a3ab-bd547998761f">
+
+
 <img width="419" alt="Screenshot 2024-06-10 195001" src="https://github.com/chethana613/document_clustering/assets/89372870/eedf89d2-99b7-49be-9449-e44b69d1c400">
 
 
