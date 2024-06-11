@@ -55,6 +55,26 @@ The centroids are updated by recalculating their positions as the mean of all th
 
 <img width="1010" alt="image" src="https://github.com/chethana613/document_clustering/assets/56347342/5d23304b-2fe3-4a63-8b0e-164fc5b68520">
 
+**6.1.1. Elbow Method**
+
+The elbow plot shows the Within-Cluster Sum of Squares (WCSS) against the number of clusters k ranging from 15 to 45.
+The WCSS decreases as the number of clusters increases, indicating that the clusters are getting tighter and more compact.
+The "elbow" point, where the rate of decrease sharply slows down, is an indicator of the optimal number of clusters. In the above plot, a noticeable change in the slope occurs around k=22
+
+**6.1.2. Silhouette Scores**
+
+The silhouette score measures the cohesion and separation of clusters. It ranges from -1 to 1, where higher values indicate better-defined clusters.
+In the results, the silhouette score is highest for k=22 with a value of 0.0036865287872031331, though it is relatively low, suggesting that the clusters are not very well-separated.
+
+**6.1.3. NMI (Normalized Mutual Information)**
+
+NMI measures the similarity between the clustering results and the ground truth, ranging from 0 (no similarity) to 1 (perfect similarity).
+The highest NMI score using K-Means is for k=22 is 0.360569186654746, indicating a moderate level of agreement between the clusters and the actual class labels.
+
+**6.1.4. Conclusion**
+Despite the low silhouette scores, k=22 is chosen as the optimal number of clusters based on the elbow method and the highest silhouette score among the tested values.
+The moderate NMI score supports this choice, suggesting that k=22 provides a reasonable clustering solution for this dataset.
+
 
 **6.2. K-Center**
 
@@ -98,7 +118,7 @@ In this work, document vectors are calculated by training a Doc2Vec model on a s
 The experiment evaluated the clustering performance of a hierarchical clustering algorithm on a dataset for various numbers of clusters (K). The silhouette scores, which measure the cohesion and separation of the clusters, showed a decreasing trend as K increased. However, the silhouette scores for K=15 and K=16 were relatively stable and higher compared to other values, indicating well-defined clusters. The normalized mutual information (NMI) scores, which assess the clustering's alignment with ground truth labels, varied with different K values. The highest NMI score was observed for K=20, suggesting better agreement with the ground truth. Notably, for K=21 to K=25, the silhouette scores were negative, indicating poor clustering. Overall, while the optimal number of clusters was not definitive, the results suggested that K=20 could be a suitable choice, offering a balance between cluster quality and alignment with ground truth labels.
 
 
-**7 Conclusion**
+**7. Conclusion**
 
 <img width="336" alt="image" src="https://github.com/chethana613/document_clustering/assets/56347342/d2d64176-53b5-45ac-8efb-edd4843a67f3">
 
