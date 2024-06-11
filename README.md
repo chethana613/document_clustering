@@ -1,10 +1,27 @@
 # document_clustering
 
-**Dataset :** 20 NewsGroup 
-  Contains around 18,000 documents spread across 20 different newsgroups - Benchmark for text classification tasks.
-  Document articles includes from topics politics, religion, science, and sports
+**Overview:**
+
+With the growing amount of digital content, oftentimes it is difficult to find relevant and hidden information in data we have. The primary idea of this project is to identify and cluster documents with similar content in terms of content or key ideas in the document. This clustering process will enable users to quickly locate and explore relevant information within large document collections. To simplify the process, we are dealing with the English language documents based on this project. By organizing these documents into meaningful clusters, the system will provide users with a powerful tool for knowledge discovery and information management.
+
+**Implementation steps:**
+
+1. Data cleaning (removing punctuation, numbers, stopwords etc.,)
+
+2. Training Doc2vec embedding model.
+   
+3. Experiment Clustering with K-means, K-Center and Hierarchical algorithms.
+
+4. Evaluation of cluster quality using Measures (Silhouette Score and NMI).
+
+5. Compare the clustering results.
 
 **Programming Language :** Python
+
+**Dataset :** 20 NewsGroup http://qwone.com/~jason/20Newsgroups/ 
+  
+  Contains around 18,000 documents spread across 20 different newsgroups - Benchmark for text classification tasks.
+  Document articles includes from topics politics, religion, science, and sports
 
 
 <img width="843" alt="Screenshot 2024-06-10 at 4 40 10 PM" src="https://github.com/chethana613/document_clustering/assets/56347342/946b5509-f1ee-493a-ba08-3cd7d6b46bc9">
