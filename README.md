@@ -58,6 +58,12 @@ Silhouette score above 0.5 indicates a good clustering, a silhouette score below
 Normalized Mutual Information (NMI) is a measure used to evaluate the similarity between two clusterings of data. It quantifies how much information is shared between the two clusterings, taking into account both the clustering assignments themselves and their agreement with some ground truth labels
 normalization of the Mutual Information (MI) score to scale the results between 0 (no mutual information) and 1 (perfect correlation).
 
+Results:
+
+**K-Means:**
+
+<img width="1010" alt="image" src="https://github.com/chethana613/document_clustering/assets/56347342/5d23304b-2fe3-4a63-8b0e-164fc5b68520">
+
 
 **K-Center**
 
@@ -70,12 +76,14 @@ K center focuses on minimizing the maximum distance between any point to the cen
 **Silhouette Score vs K :**
 Experimentation is done with Silhouette Score vs K to find the optimal k value and corresponding Silhouette Scores and following are the results.
 
-<img width="843" alt="Screenshot 2024-06-10 at 4 40 10 PM" src="https://github.com/chethana613/document_clustering/assets/56347342/946b5509-f1ee-493a-ba08-3cd7d6b46bc9">
+<img width="673" alt="image" src="https://github.com/chethana613/document_clustering/assets/56347342/62c57fcd-8dc4-49e8-92e7-86102a1cda4e">
+
 
 **NMI Score vs K :**
 We have taken another metrics NMI Score which is experimented on different k values and following are the results.
 
-<img width="843" alt="Screenshot 2024-06-10 at 4 40 10 PM" src="https://github.com/chethana613/document_clustering/assets/56347342/946b5509-f1ee-493a-ba08-3cd7d6b46bc9">
+<img width="625" alt="image" src="https://github.com/chethana613/document_clustering/assets/56347342/64b5afe9-d773-409e-8b4a-d832fe2f8a6d">
+
 
 **Observations & Results**
 The 20 Newsgroups dataset is high-dimensional. The k-center algorithm, which minimizes the maximum distance to the nearest center, can perform well in high-dimensional spaces where the concept of "center" and "distance" can be quite different compared to lower-dimensional spaces.
